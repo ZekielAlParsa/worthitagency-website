@@ -4,7 +4,11 @@ var app = express()
 app.use(express.static(__dirname + '/public'));
 
 app.get("/", function(req, res) {
-	res.sendFile(__dirname + '/index.html');
+	res.redirect('https://twitter.com/WorthItAgency');
+});
+
+app.get("/cards", function(req, res) {
+	res.sendFile(__dirname + '/cards.html');
 });
 
 app.listen(8080, function () {

@@ -142,7 +142,21 @@ Button
  	background: none;
  	border: none;
 	 margin-bottom: 4vw;
+	  	-webkit-transition: all 600ms cubic-bezier(0, .85, .29, .88);
+ 	-moz-transition: all 600ms cubic-bezier(0, .85, .29, .88);
+ 	-o-transition: all 600ms cubic-bezier(0, .85, .29, .88);
+ 	-ms-transition: all 600ms cubic-bezier(0, .85, .29, .88);
+ 	-webkit-touch-callout: none;
+ 	-webkit-user-select: none;
+ 	-khtml-user-select: none;
+ 	-moz-user-select: none;
+ 	-ms-user-select: none;
+ 	user-select: none;
  }
+
+button:focus{
+	outline: none;
+}
 
  button p {
  	cursor: pointer;
@@ -154,9 +168,21 @@ Button
  	background: white;
  	bottom: 20px;opacity: 0.8;
 	 font-size: 1.3em;
+	  	-webkit-touch-callout: none;
+ 	-webkit-user-select: none;
+ 	-khtml-user-select: none;
+ 	-moz-user-select: none;
+ 	-ms-user-select: none;
+ 	user-select: none;
  }
  button p:hover {
  	padding: 10px 30px;
 	 opacity: 1;
+	  	-webkit-touch-callout: none;
+ 	-webkit-user-select: none;
+ 	-khtml-user-select: none;
+ 	-moz-user-select: none;
+ 	-ms-user-select: none;
+ 	user-select: none;
 
  }

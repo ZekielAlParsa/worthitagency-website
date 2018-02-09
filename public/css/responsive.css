@@ -13,15 +13,19 @@ RESPONSIVE
  		padding-bottom: 8vw;
  	}
 
- 	nav li p {
- 		padding-bottom: 8vw;
+ 	nav li+li p {
+ 		padding-bottom: 0.5vw;
+ 	}
+	 
+	 nav li+li+li p {
+ 		padding-bottom: 6vw;
  	}
 
  	article {
- 		width: 40vw;
- 		height: 40vw;
+ 		width: 80vw;
+ 		height: 80vw;
  		margin: 0.1vw;
- 		margin-top: 0vw;
+ 		margin-top: 1vw;
  	}
 
  	#twitter {
@@ -42,12 +46,15 @@ RESPONSIVE
 
  @media only screen and (min-width: 360px) and (min-height:640px) {}
 
- @media only screen and (min-width: 480px) and (min-height:800px) {
- 	nav li p {
- 		padding-bottom: 6vw;
+ @media only screen and (min-width: 480px) and (min-height:800px) {	 
+	  	nav li+li p {
+ 		padding-bottom: 0.5vw;
+ 	}
+	 
+	 nav li+li+li p {
+ 		padding-bottom: 4vw;
  	}
  	nav li img {
-
  		padding-bottom: 1vw;
  	}
  }
@@ -61,8 +68,8 @@ RESPONSIVE
  		padding-bottom: 1vw;
  	}
 
- 	nav li p {
- 		padding-bottom: 6vw;
+ 	nav li+li p {
+ 		padding-bottom: 0.5vw;
  	}
 
  	article {
@@ -91,8 +98,12 @@ RESPONSIVE
  		padding-bottom: 1vw;
  	}
 
- 	nav li p {
- 		padding-bottom: 6vw;
+ 	nav li+li p {
+ 		padding-bottom: 0.5vw;
+ 	}
+	 
+	 	 nav li+li+li p {
+ 		padding-bottom: 0vw;
  	}
 
  	article {
@@ -109,7 +120,7 @@ RESPONSIVE
 }
 
  @media only screen and (min-width: 1600px) {
-	  	nav li img {
+	 nav li img {
  		width: 18vw;
  		padding-top: 3vw;
  		padding-bottom: 0.5vw;
