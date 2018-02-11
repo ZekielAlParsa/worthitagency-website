@@ -23,6 +23,12 @@
 		});
 	</script>
 
+	<script>
+		window.onbeforeunload = function() {
+			window.scrollTo(0, 0);
+		}
+	</script>
+
 	<link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
 
 
@@ -30,55 +36,56 @@
 
 
 <body id="global_contener">
-	
-	<nav>
+
+	<nav href="#reboot">
 		<ul>
-			
-			<li> <img src="assets/logo.png" > </li>
-			
-			<li> <p> Méthode de génération de concepts pour le stream </p> </li>
-						
-			<li> <p> Méthode de génération de concepts pour le stream </p> </li>
-			
+
+			<li> <img src="assets/logo.png"> </li>
+
+			<li>
+				<p> Méthode de génération de concepts pour le stream </p>
+			</li>
+
+			<li>
+				<p> Méthode de génération de concepts pour le stream </p>
+			</li>
 
 		</ul>
 	</nav>
 
 	<section>
-	
+
 		<article class="type_1"></article>
 		<article class="type_2"></article>
 		<article class="type_3"></article>
 		<article class="type_4"></article>
-		
-	</section>
-	
-	<img href="https://twitter.com/worthitagency?lang=fr"
-target=_blank id="twitter" src="assets/twitter.png">
-	
-	<button onClick="window.location.reload()"> <p> Relancer </p> </button>
-	
-	
-	<script type="text/javascript">
-        $(function() {
-            var images1 = ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', '8.png', '9.png', '10.png', '11.png', '12.png', '13.png', '14.png', '15.png'];
-            $('.type_1').css({
-                'background-image': 'url(assets/carte_1/' + images1[Math.floor(Math.random() * images1.length)] + ')'
-            });
-			  var images2 = ['16.png', '17.png', '18.png', '19.png', '20.png', '21.png', '22.png', '23.png', '24.png', '25.png', '26.png', '27.png', '28.png', '29.png', '30.png'];
-            $('.type_2').css({
-                'background-image': 'url(assets/carte_2/' + images2[Math.floor(Math.random() * images2.length)] + ')'
-            });
-			  var images3 = ['31.png', '32.png', '33.png', '34.png', '35.png', '36.png', '37.png', '38.png', '39.png', '40.png', '41.png', '42.png', '43.png', '44.png', '45.png'];
-            $('.type_3').css({
-                'background-image': 'url(assets/carte_3/' + images3[Math.floor(Math.random() * images3.length)] + ')'
-            });
-			  var images4 = ['46.png', '47.png', '48.png', '49.png', '50.png', '51.png', '52.png', '53.png', '54.png', '55.png', '56.png', '57.png', '58.png', '59.png', '60.png'];
-            $('.type_4').css({
-                'background-image': 'url(assets/carte_4/' + images4[Math.floor(Math.random() * images4.length)] + ')'
-            });
-        });
-    </script>
 
+	</section>
+
+	<img href="https://twitter.com/worthitagency?lang=fr" target=_blank id="twitter" src="assets/twitter.png">
+
+	<button onClick="window.location.reload()" id="relance"> <p> Relancer </p> </button>
+
+
+	<script type="text/javascript">
+		$(function() {
+			var images1 = ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', '8.png', '9.png', '10.png', '11.png', '12.png', '13.png', '14.png', '15.png'];
+			$('.type_1').css({
+				'background-image': 'url(assets/carte_1/' + images1[Math.floor(Math.random() * images1.length)] + ')'
+			});
+			var images2 = ['16.png', '17.png', '18.png', '19.png', '20.png', '21.png', '22.png', '23.png', '24.png', '25.png', '26.png', '27.png', '28.png', '29.png', '30.png'];
+			$('.type_2').css({
+				'background-image': 'url(assets/carte_2/' + images2[Math.floor(Math.random() * images2.length)] + ')'
+			});
+			var images3 = ['31.png', '32.png', '33.png', '34.png', '35.png', '36.png', '37.png', '38.png', '39.png', '40.png', '41.png', '42.png', '43.png', '44.png', '45.png'];
+			$('.type_3').css({
+				'background-image': 'url(assets/carte_3/' + images3[Math.floor(Math.random() * images3.length)] + ')'
+			});
+			var images4 = ['46.png', '47.png', '48.png', '49.png', '50.png', '51.png', '52.png', '53.png', '54.png', '55.png', '56.png', '57.png', '58.png', '59.png', '60.png'];
+			$('.type_4').css({
+				'background-image': 'url(assets/carte_4/' + images4[Math.floor(Math.random() * images4.length)] + ')'
+			});
+		});
+	</script>
 
 </body>
