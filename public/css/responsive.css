@@ -13,11 +13,11 @@ RESPONSIVE
  		padding-bottom: 8vw;
  	}
 
- 	nav li+li p {
+ 	nav li + li p {
  		padding-bottom: 0.5vw;
  	}
-	 
-	 nav li+li+li p {
+
+ 	nav li + li + li p {
  		padding-bottom: 6vw;
  	}
 
@@ -29,8 +29,12 @@ RESPONSIVE
  	}
 
  	#twitter {
- 		right: 5px;
- 		top: 5px;
+ 		right: 10px;
+ 		top: 20px;
+ 		width: 8.5vw;
+ 	}
+
+ 	#twitter img {
  		width: 8.5vw;
  	}
 
@@ -46,12 +50,12 @@ RESPONSIVE
 
  @media only screen and (min-width: 360px) and (min-height:640px) {}
 
- @media only screen and (min-width: 480px) and (min-height:800px) {	 
-	  	nav li+li p {
+ @media only screen and (min-width: 480px) and (min-height:800px) {
+ 	nav li + li p {
  		padding-bottom: 0.5vw;
  	}
-	 
-	 nav li+li+li p {
+
+ 	nav li + li + li p {
  		padding-bottom: 4vw;
  	}
  	nav li img {
@@ -68,7 +72,7 @@ RESPONSIVE
  		padding-bottom: 1vw;
  	}
 
- 	nav li+li p {
+ 	nav li + li p {
  		padding-bottom: 0.5vw;
  	}
 
@@ -80,10 +84,15 @@ RESPONSIVE
  	}
 
  	#twitter {
- 		right: 30px;
- 		top: 30px;
+ 		right: 90px;
+ 		top: 20px;
+ 		width: 0.5vw;
+ 	}
+
+ 	#twitter img {
  		width: 4.5vw;
  	}
+
 
  	button {
  		margin-top: 2vw;
@@ -92,17 +101,17 @@ RESPONSIVE
  }
 
  @media only screen and (min-width: 1280px) {
-	  	nav li img {
+ 	nav li img {
  		width: 25vw;
  		padding-top: 5vw;
  		padding-bottom: 1vw;
  	}
 
- 	nav li+li p {
+ 	nav li + li p {
  		padding-bottom: 0.5vw;
  	}
-	 
-	 	 nav li+li+li p {
+
+ 	nav li + li + li p {
  		padding-bottom: 0vw;
  	}
 
@@ -117,10 +126,10 @@ RESPONSIVE
  		margin-top: 4vw;
 
  	}
-}
+ }
 
  @media only screen and (min-width: 1600px) {
-	 nav li img {
+ 	nav li img {
  		width: 18vw;
  		padding-top: 3vw;
  		padding-bottom: 0.5vw;
@@ -134,14 +143,10 @@ RESPONSIVE
  		margin-top: 7vw;
  	}
 
- 	#twitter {
- 		width: 2.5vw;
- 	}
-
  	button {
  		margin-top: 2vw;
 
  	}
-}
+ }
 
  @media only screen and (min-width: 1920px) {}
