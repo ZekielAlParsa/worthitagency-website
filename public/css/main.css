@@ -38,24 +38,15 @@ ALL
  	display: none;
  }
 
- *:after,
- *:before {
- 	-webkit-box-sizing: border-box;
- 	-moz-box-sizing: border-box;
- 	-ms-box-sizing: border-box;
- 	-o-box-sizing: border-box;
- }
-
  body {
  	display: none;
  	background-image: url(../assets/background.png);
  	background-size: cover;
  	background-position: center;
- 	font-family: 'Raleway', sans-serif;
- 	-webkit-transition: all 00ms cubic-bezier(0, .85, .29, .88);
- 	-moz-transition: all 00ms cubic-bezier(0, .85, .29, .88);
- 	-o-transition: all 00ms cubic-bezier(0, .85, .29, .88);
- 	-ms-transition: all 00ms cubic-bezier(0, .85, .29, .88);
+ 	-webkit-transition: all 0ms cubic-bezier(0, .85, .29, .88);
+ 	-moz-transition: all 0ms cubic-bezier(0, .85, .29, .88);
+ 	-o-transition: all 0ms cubic-bezier(0, .85, .29, .88);
+ 	-ms-transition: all 0ms cubic-bezier(0, .85, .29, .88);
  }
 
  /* ---------------------------
@@ -68,6 +59,7 @@ LOGO
 
  nav {
  	text-align: center;
+	font-family: 'Raleway', sans-serif;
  }
 
  nav li p {
@@ -145,17 +137,7 @@ Button
  	text-align: center;
  	background: none;
  	border: none;
-	 margin-bottom: 4vw;
-	  	-webkit-transition: all 600ms cubic-bezier(0, .85, .29, .88);
- 	-moz-transition: all 600ms cubic-bezier(0, .85, .29, .88);
- 	-o-transition: all 600ms cubic-bezier(0, .85, .29, .88);
- 	-ms-transition: all 600ms cubic-bezier(0, .85, .29, .88);
- 	-webkit-touch-callout: none;
- 	-webkit-user-select: none;
- 	-khtml-user-select: none;
- 	-moz-user-select: none;
- 	-ms-user-select: none;
- 	user-select: none;
+	margin-bottom: 4vw;
  }
 
 button:focus{
@@ -171,22 +153,10 @@ button:focus{
  	padding: 10px 20px;
  	background: white;
  	bottom: 20px;opacity: 0.8;
-	 font-size: 1.3em;
-	  	-webkit-touch-callout: none;
- 	-webkit-user-select: none;
- 	-khtml-user-select: none;
- 	-moz-user-select: none;
- 	-ms-user-select: none;
- 	user-select: none;
+	font-size: 1.3em;
  }
+
  button p:hover {
  	padding: 10px 30px;
 	 opacity: 1;
-	  	-webkit-touch-callout: none;
- 	-webkit-user-select: none;
- 	-khtml-user-select: none;
- 	-moz-user-select: none;
- 	-ms-user-select: none;
- 	user-select: none;
-
  }

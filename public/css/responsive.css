@@ -50,7 +50,7 @@ RESPONSIVE
 
  @media only screen and (min-width: 360px) and (min-height:640px) {}
 
- @media only screen and (min-width: 480px) and (min-height:800px) {
+ @media only screen and (min-width: 480px) {
  	nav li + li p {
  		padding-bottom: 0.5vw;
  	}
@@ -63,10 +63,7 @@ RESPONSIVE
  	}
  }
 
- @media only screen and (min-width: 720px) {}
-
- @media only screen and (min-width: 1024px) {
- 	nav li img {
+ @media only screen and (min-width: 720px) { nav li img {
  		width: 30vw;
  		padding-top: 3vw;
  		padding-bottom: 1vw;
@@ -93,11 +90,15 @@ RESPONSIVE
  		width: 2.5vw;
  	}
 
-
  	button {
  		margin-top: 2vw;
 
  	}
+}
+
+
+ @media only screen and (min-width: 1024px) {
+ 
  }
 
  @media only screen and (min-width: 1280px) {
@@ -116,8 +117,8 @@ RESPONSIVE
  	}
 
  	article {
- 		width: 23vw;
- 		height: 23vw;
+ 		width: 22vw;
+ 		height: 22vw;
  		margin: 0.75vw;
  		margin-top: 8vw;
  	}
@@ -149,4 +150,4 @@ RESPONSIVE
  	}
  }
 
- @media only screen and (min-width: 1920px) {}
+ @media only screen and (min-width: 1920px) { }
