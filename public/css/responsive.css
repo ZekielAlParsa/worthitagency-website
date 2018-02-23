@@ -98,11 +98,7 @@ RESPONSIVE
 
 
  @media only screen and (min-width: 1024px) {
- 
- }
-
- @media only screen and (min-width: 1280px) {
- 	nav li img {
+	  	nav li img {
  		width: 25vw;
  		padding-top: 5vw;
  		padding-bottom: 1vw;
@@ -127,6 +123,11 @@ RESPONSIVE
  		margin-top: 4vw;
 
  	}
+ 
+ }
+
+ @media only screen and (min-width: 1280px) {
+
  }
 
  @media only screen and (min-width: 1600px) {
