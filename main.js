@@ -4,7 +4,7 @@ var app = express()
 app.use(express.static(__dirname + '/public'));
 
 app.get("/", function(req, res) {
-	res.redirect('https://twitter.com/WorthItAgency');
+	res.sendFile(__dirname + '/home.html');
 });
 
 app.get("/cards", function(req, res) {

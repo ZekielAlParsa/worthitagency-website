@@ -1,0 +1,73 @@
+ /* ---------------------------
+
+
+RESPONSIVE
+
+
+--------------------------- */
+
+ @media only screen and (min-width: 240px) and (min-height:320px) {
+ 	nav li img {
+ 		width: 65vw;
+ 	}
+
+ 	footer li p {
+ 		font-size: 4.5vw;
+ 	} 
+	 
+	 canvas {
+		 top: -280px;
+		 left: 280px;
+	 }
+ }
+
+ @media only screen and (min-width: 240px) and (min-height:400px) {
+}
+
+ @media only screen and (min-width: 320px) and (min-height:480px) {
+}
+
+ @media only screen and (min-width: 360px) and (min-height:640px) {
+
+}
+
+ @media only screen and (min-width: 480px) {}
+
+ @media only screen and (min-width: 720px) {
+
+	 footer li p {
+ 		font-size: 2.5vw;
+ 	} 
+	 
+	 canvas {
+		 top: -280px;
+		 left: 200px;
+	 }
+}
+
+ @media only screen and (min-width: 1024px) {
+		nav li img {
+ 			width: 35vw;
+ 	}
+ 	footer li p {
+ 		font-size: 1.2vw;
+ 	} 	 
+	 canvas {
+		 top: 0px;
+		 left: 0px;
+	 }
+}
+
+ @media only screen and (min-width: 1280px) {
+ 	footer li p {
+ 		font-size: 1.2vw;
+ 	} 
+}
+
+ @media only screen and (min-width: 1600px) {
+ 	footer li p {
+ 		font-size: 0.8vw;
+ 	}
+ }
+
+ @media only screen and (min-width: 1920px) {}

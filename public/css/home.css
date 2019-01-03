@@ -1,0 +1,141 @@
+@font-face {
+	font-family: 'Conv_DrukTextWide-SuperItalic_0';
+	src: url('fonts/DrukTextWide-SuperItalic_0.eot');
+	src: local('☺'), url('fonts/DrukTextWide-SuperItalic_0.woff') format('woff'), url('fonts/DrukTextWide-SuperItalic_0.ttf') format('truetype'), url('fonts/DrukTextWide-SuperItalic_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_DrukTextWide-Super_0';
+	src: url('fonts/DrukTextWide-Super_0.eot');
+	src: local('☺'), url('fonts/DrukTextWide-Super_0.woff') format('woff'), url('fonts/DrukTextWide-Super_0.ttf') format('truetype'), url('fonts/DrukTextWide-Super_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* ---------------------------
+
+
+ALL
+
+
+--------------------------- */
+
+* {
+	padding: 0px;
+	margin: 0px;
+	font-size: 1em;
+	-webkit-transition: all 600ms cubic-bezier(0, .85, .29, .88);
+	-moz-transition: all 600ms cubic-bezier(0, .85, .29, .88);
+	-o-transition: all 600ms cubic-bezier(0, .85, .29, .88);
+	-ms-transition: all 600ms cubic-bezier(0, .85, .29, .88);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+::-ms-scrollbar {
+	display: none;
+}
+
+::-o-scrollbar {
+	display: none;
+}
+
+::-moz-scrollbar {
+	display: none;
+}
+
+body {
+	display: none;
+	background-color: black;
+	background-size: cover;
+	background-position: center;
+	-webkit-transition: all 0ms cubic-bezier(0, .85, .29, .88);
+	-moz-transition: all 0ms cubic-bezier(0, .85, .29, .88);
+	-o-transition: all 0ms cubic-bezier(0, .85, .29, .88);
+	-ms-transition: all 0ms cubic-bezier(0, .85, .29, .88);
+	user-select: none;
+}
+
+/* ---------------------------
+
+
+LOGO
+
+
+--------------------------- */
+
+nav {
+	text-align: center;
+	font-family: 'Conv_DrukTextWide-SuperItalic_0';
+	text-transform: uppercase;
+}
+
+nav li p {
+	color: white;
+	padding-top: 1vw;
+	font-size: 1.5vw;
+}
+
+nav li img {
+	width: 35vw;
+	padding-top: 20vw;
+}
+
+footer {
+	width: 100%;
+	margin: auto;
+	position: absolute; bottom:15px;
+	text-align: center;
+}
+
+footer li p {
+	color: white;
+	font-size: 0.8vw;
+	font-family: 'Conv_DrukTextWide-SuperItalic_0';
+}
+
+/* ----------------------------------
+
+
+ANIM BACKGROUND 
+
+
+__________________________________________________ */
+
+.screen{
+	position: absolute;
+	width: 100vw;
+	height: 100vw;
+	top:0;
+	z-index: 15;
+}
+
+#container {
+	position: absolute;
+	left: 70%;
+	top: 50%;
+	user-select: none;
+	z-index: 10;
+}
+
+#container2 {
+	position: absolute;
+	left: 71%;
+	top: 52%;
+	user-select: none;
+	z-index: 10;
+}
+
+canvas {
+	position: absolute;
+}
