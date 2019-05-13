@@ -1,0 +1,325 @@
+ /* ---------------------------
+
+
+RESPONSIVE
+
+
+--------------------------- */
+
+ @media only screen and (min-width: 240px) and (min-height:320px) {
+ 	nav ul {
+ 		padding: 2vw;
+ 	}
+
+ 	nav .menu li {
+ 		font-size: 0.6em;
+ 		line-height: 1.2em;
+ 	}
+
+ 	.project {
+ 		height: 40vh;
+		max-height: 140px;
+ 	}
+
+ 	.project section img + section {
+ 		padding: 0vw;
+ 		bottom: 44vh;
+ 		min-height: 40vh;
+ 	}
+
+ 	.project section img + section article {
+ 		width: 40%;
+ 		padding: 10px;
+ 		padding-left: 15px;
+ 	}
+
+ 	.project section img + section article h2 {
+ 		font-size: 0.4em;
+ 		margin-bottom: 0px;
+ 	}
+
+ 	.project section img + section article p {
+ 		display: none;
+ 	}
+
+ 	.contener div {
+ 		font-size: 0.55em;
+ 	}
+
+ 	.contener div p {
+ 		padding: 5px;
+ 	}
+
+ 	.contener div + div {
+ 		right: 16vw;
+ 	}
+ }
+
+ @media only screen and (min-width: 240px) and (min-height:400px) {
+ 	.project {
+ 		height: 32vh;
+ 	}
+
+ 	.project section img + section {
+ 		bottom: 72vw;
+ 		min-height: 40vh;
+ 	}
+
+ 	.contener div {
+ 		display: none;
+ 	}
+ }
+
+ @media only screen and (min-width: 320px) and (min-height:480px) {
+ 	.project {
+ 		height: 37vh;
+		max-height: 180px;
+ 	}
+
+ 	.project section img + section {
+ 		bottom: 63vw;
+ 		min-height: 40vh;
+ 	}
+
+ 	.contener div {
+ 		display: block;
+ 	}
+
+ 	.contener div p {
+ 		padding: 10px;
+ 	}
+ }
+
+ @media only screen and (min-width: 360px) and (min-height:640px) {
+ 	.project section img + section article p {
+ 	display: none;
+ 	}
+
+ 	.project section img + section {
+ 		bottom: 68vw;
+ 		min-height: 40vh;
+ 	}
+
+ 	.project section img + section article {
+ 		width: 88%;
+ 		padding: 10px;
+ 		padding-left: 15px;
+ 	}
+
+ 	.project {
+ 		height: 33vh;
+		max-height: 400px;
+ 	}
+
+ 	.contener div {
+ 		display: none;
+ 	}
+ }
+
+ @media only screen and (min-width: 480px) {
+ 	nav ul {
+ 		padding: 2vw;
+ 	}
+
+ 	nav .menu li {
+ 		font-size: 0.8em;
+ 		line-height: 1.2em;
+ 	}
+
+ 	.project {
+ 		height: 42vh;
+		max-height: 400px;
+ 	}
+
+ 	.project section img + section {
+ 		padding: 0vw;
+ 		bottom: 55vw;
+ 		min-height: 40vh;
+ 	}
+
+ 	.project section img + section article {
+ 		width: 80%;
+ 		padding: 10px;
+ 		padding-left: 15px;
+ 	}
+
+ 	.project section img + section article h2 {
+ 		font-size: 0.5em;
+ 		margin-bottom: 0px;
+ 	}
+
+ 	.project section img + section article p {
+ 		font-size: 0.5em;
+		display: block;
+ 	}
+
+ 	.contener div {
+ 		font-size: 0.7em;
+ 		display: block;
+ 	}
+
+ 	.contener div p {
+ 		padding: 10px;
+ 		padding-left: 20px;
+ 	}
+
+ 	.contener div + div {
+ 		right: 13vw;
+ 	}
+ }
+
+ @media only screen and (min-width: 720px) {
+ 	nav ul {
+ 		padding: 2vw;
+
+ 	}
+
+ 	.project {
+ 		height: 40vh;
+		max-height: 8000px;
+ 	}
+
+ 	.project section img + section {
+ 		bottom: 59vw;
+ 		min-height: 40vh;
+ 	}
+
+ 	.project section img + section article h2 {
+ 		font-size: 0.7em;
+ 	}
+
+ 	.project section img + section article p {
+ 		font-size: 0.7em;
+ 	}
+
+ 	.contener div {
+ 		font-size: 0.8em;
+ 	}
+
+ 	.contener div + div {
+ 		right: 10vw;
+ 	}
+ }
+
+ @media only screen and (min-width: 1024px) {
+ 	.project {
+ 		height: 80vh;
+ 	}
+
+ 	.project section img + section article h2 {
+ 		font-size: 0.9em;
+ 	}
+
+ 	.project section img + section article {
+ 		width: 60%;
+ 		padding: 20px;
+ 		padding-left: 20px;
+ 	}
+
+ 	.project section img + section {
+ 		bottom: 58vw;
+ 		min-height: 80vh;
+ 	}
+
+ 	.project section img + section article p {
+ 		font-size: 0.9em;
+ 	}
+
+ 	.contener div + div {
+ 		right: 8vw;
+ 	}
+
+ }
+
+ @media only screen and (min-width: 1280px) {
+ 	.project {
+ 		height: 100vh;
+ 	}
+
+ 	nav .menu li {
+ 		font-size: 1em;
+ 		line-height: 1.2em;
+ 	}
+
+ 	.project section img + section article h2 {
+ 		font-size: 1em;
+ 	}
+
+ 	.project section img + section article {
+ 		width: 50%;
+ 		padding: 20px;
+ 		padding-left: 20px;
+ 	}
+
+ 	.project section img + section {
+ 		bottom: 47vw;
+ 		min-height: 80vh;
+ 	}
+
+ 	.project section img + section article p {
+ 		font-size: 1em;
+ 	}
+
+ 	.contener div + div {
+ 		right: 7vw;
+ 	}
+ }
+
+ @media only screen and (min-width: 1600px) {
+ 	nav ul {
+ 		padding: 1vw;
+ 	}
+
+ 	nav .menu li {
+ 		font-size: 1.3em;
+ 		line-height: 1.2em;
+ 	}
+
+ 	.project {
+ 		height: 100vh;
+ 	}
+
+ 	.project section img + section {
+ 		padding: 0vw;
+ 		bottom: 58vw;
+ 		min-height: 100vh;
+ 	}
+
+ 	.project section img + section article {
+ 		width: 40%;
+ 		padding: 20px;
+ 		padding-left: 25px;
+ 	}
+
+ 	.project section img + section article h2 {
+ 		font-size: 1em;
+ 		margin-bottom: 5px;
+ 	}
+
+ 	.project section img + section article p {
+ 		font-size: 1em;
+ 		hyphens: auto;
+ 	}
+
+ 	.contener div {
+ 		font-size: 1em;
+ 	}
+
+ 	.contener div p {
+ 	padding: 18px;
+        padding-left: 25px;
+
+ 	}
+
+ 	.contener div + div {
+ 		right: 7vw;
+ 	}
+ }
+
+ @media only screen and (min-width: 1920px) {
+ 	.project section img + section {
+ 		padding: 0vw;
+ 		bottom: 52vw;
+ 		min-height: 100vh;
+ 	}
+ }

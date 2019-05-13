@@ -1,0 +1,156 @@
+ /* ---------------------------
+
+
+RESPONSIVE
+
+
+--------------------------- */
+
+ @media only screen and (min-width: 240px) and (min-height:320px) {
+ 	nav ul li h1 {
+ 		padding-left: 24vw;
+ 		font-size: 4vw;
+ 		width: 80%;
+ 		padding-top: 0vw;
+ 	}
+
+ 	nav ul + ul {
+ 		left: 28vw;
+ 		top: 60vw;
+ 		text-align: center;
+ 		font-size: 1em;
+ 	}
+
+ 	nav li img {
+ 		width: 85vw;
+ 	}
+
+ 	footer li h3 {
+ 		font-size: 4vw;
+ 	}
+
+ 	canvas {
+ 		top: -280px;
+ 		left: 280px;
+ 	}
+ }
+
+ @media only screen and (min-width: 240px) and (min-height:400px) {
+ 	nav ul + ul {
+ 		top: 80vw;
+ 	}
+ }
+
+ @media only screen and (min-width: 320px) and (min-height:480px) {
+ 	nav ul + ul {
+ 		left: 30vw;
+ 		top: 75vw;
+ 		font-size: 1.3em;
+ 	}
+ }
+
+ @media only screen and (min-width: 360px) and (min-height:640px) {
+ 	nav ul + ul {
+ 		left: 25vw;
+ 		top: 93vw;
+ 		font-size: 1.8em;
+ 	}
+ }
+
+ @media only screen and (min-width: 480px) {
+ 	nav ul + ul {
+ 		left: 30vw;
+ 		top: 73vw;
+ 		font-size: 2em;
+ 	}
+
+ 	footer li h3 {
+ 		font-size: 3vw;
+ 	}
+
+ }
+
+ @media only screen and (min-width: 720px) {
+ 	nav ul + ul {
+ 		left: 29vw;
+ 		top: 75vw;
+ 		font-size: 3em;
+ 	}
+
+ 	footer li h3 {
+ 		font-size: 2.5vw;
+ 	}
+
+ 	canvas {
+ 		top: -280px;
+ 		left: 200px;
+ 	}
+ }
+
+ @media only screen and (min-width: 1024px) {
+
+ 	nav ul li h1 {
+
+ 		padding-top: 0.5vw;
+ 		font-size: 1.5vw;
+ 		padding-left: 2vw;
+ 		width: 45%;
+ 	}
+
+ 	nav ul + ul {
+ 		left: 10vw;
+ 		top: 40vw;
+ 		font-size: 2em;
+ 		text-align: right;
+ 	}
+
+ 	nav li img {
+ 		width: 50vw;
+ 	}
+
+ 	footer li h3 {
+ 		font-size: 1.2vw;
+ 	}
+
+ 	canvas {
+ 		top: 0px;
+ 		left: 0px;
+ 	}
+ }
+
+ @media only screen and (min-width: 1280px) {
+ 	footer li h3 {
+ 		font-size: 1.2vw;
+ 	}
+
+ 	nav ul + ul {
+ 		top: 37vw;
+ 	}
+ }
+
+ @media only screen and (min-width: 1600px) {
+ 	nav ul li h1 {
+ 		font-size: 1vw;
+ 		width: 30%;
+ 	}
+
+ 	nav ul + ul {
+ 		left: 10vw;
+ 		top: 20.5vw;
+ 		font-size: 2em;
+ 	}
+
+ 	nav li img {
+ 		width: 35vw;
+ 	}
+
+ 	footer li h3 {
+ 		font-size: 0.8vw;
+ 	}
+ }
+
+ @media only screen and (min-width: 1920px) {
+ 	nav ul li h1 {
+ 		font-size: 0.8vw;
+ 	}
+ }

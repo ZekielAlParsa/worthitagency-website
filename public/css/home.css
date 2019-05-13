@@ -1,3 +1,19 @@
+/* ---------------------------
+
+
+FONT 
+
+
+--------------------------- */
+
+@font-face {
+	font-family: 'Conv_DrukTextWide-BoldItalic_0';
+	src: url('fonts/DrukTextWide-BoldItalic_0.eot');
+	src: local('☺'), url('fonts/DrukTextWide-BoldItalic_0.woff') format('woff'), url('fonts/DrukTextWide-BoldItalic_0.ttf') format('truetype'), url('fonts/DrukTextWide-BoldItalic_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 @font-face {
 	font-family: 'Conv_DrukTextWide-SuperItalic_0';
 	src: url('fonts/DrukTextWide-SuperItalic_0.eot');
@@ -21,6 +37,9 @@ ALL
 
 
 --------------------------- */
+html{
+	  scroll-behavior: smooth;
+}
 
 * {
 	padding: 0px;
@@ -31,11 +50,15 @@ ALL
 	-o-transition: all 600ms cubic-bezier(0, .85, .29, .88);
 	-ms-transition: all 600ms cubic-bezier(0, .85, .29, .88);
 	-webkit-touch-callout: none;
+	-khtml-touch-callout: none;
+	-moz-touch-callout: none;
+	-ms-touch-callout: none;
+	 touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
-	user-select: none;
+	 user-select: none;
 }
 
 ::-webkit-scrollbar {
@@ -64,26 +87,30 @@ body {
 	-o-transition: all 0ms cubic-bezier(0, .85, .29, .88);
 	-ms-transition: all 0ms cubic-bezier(0, .85, .29, .88);
 	user-select: none;
+    overflow: hidden;
 }
 
 /* ---------------------------
 
 
-LOGO
+UI
 
 
 --------------------------- */
 
 nav {
 	text-align: center;
-	font-family: 'Conv_DrukTextWide-SuperItalic_0';
-	text-transform: uppercase;
+	font-family: 'Conv_DrukTextWide-BoldItalic_0';
 }
 
-nav li p {
+nav ul li h1 {
 	color: white;
-	padding-top: 1vw;
-	font-size: 1.5vw;
+	padding-top: 0.5vw;
+	font-size: 0.8vw;
+	margin: auto;
+	padding-left: 2vw;
+	text-align: left;
+	width: 30%;
 }
 
 nav li img {
@@ -91,14 +118,48 @@ nav li img {
 	padding-top: 20vw;
 }
 
+nav ul+ul {
+	position: absolute;
+	left: 10vw;
+	top: 20.5vw;
+	list-style: none; 
+	z-index: 20;
+	text-align: right;
+	font-size: 2em;
+	line-height: 1.2em;
+}
+
+nav ul+ul li a, nav ul+ul li a:link, nav ul+ul li a:visited, nav ul+ul li a:active{
+	color: white;
+	text-decoration: none;
+	opacity: 0.3;
+	cursor:pointer;
+}
+
+nav ul+ul li a h2, nav ul+ul li a h2:link, nav ul+ul li a h2:visited, nav ul+ul li a h2:active{
+	color: white;
+	text-decoration: none;
+	opacity: 0.3;
+	cursor:pointer;
+}
+
+nav ul+ul li a:hover {
+	opacity: 1;
+}
+
+nav ul+ul li a h2:hover {
+	opacity: 1;
+}
+
 footer {
 	width: 100%;
 	margin: auto;
-	position: absolute; bottom:15px;
+	position: absolute; 
+	bottom:15px;
 	text-align: center;
 }
 
-footer li p {
+footer li h3 {
 	color: white;
 	font-size: 0.8vw;
 	font-family: 'Conv_DrukTextWide-SuperItalic_0';

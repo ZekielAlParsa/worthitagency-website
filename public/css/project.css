@@ -1,0 +1,261 @@
+/* ---------------------------
+
+
+FONT 
+
+
+--------------------------- */
+
+@font-face {
+	font-family: 'Conv_DrukTextWide-BoldItalic_0';
+	src: url('fonts/DrukTextWide-BoldItalic_0.eot');
+	src: local('☺'), url('fonts/DrukTextWide-BoldItalic_0.woff') format('woff'), url('fonts/DrukTextWide-BoldItalic_0.ttf') format('truetype'), url('fonts/DrukTextWide-BoldItalic_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_DrukTextWide-SuperItalic_0';
+	src: url('fonts/DrukTextWide-SuperItalic_0.eot');
+	src: local('☺'), url('fonts/DrukTextWide-SuperItalic_0.woff') format('woff'), url('fonts/DrukTextWide-SuperItalic_0.ttf') format('truetype'), url('fonts/DrukTextWide-SuperItalic_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_DrukTextWide-Super_0';
+	src: url('fonts/DrukTextWide-Super_0.eot');
+	src: local('☺'), url('fonts/DrukTextWide-Super_0.woff') format('woff'), url('fonts/DrukTextWide-Super_0.ttf') format('truetype'), url('fonts/DrukTextWide-Super_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* ---------------------------
+
+
+ALL
+
+
+--------------------------- */
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	font-size: 1em;
+	-webkit-transition: all 600ms cubic-bezier(0, .85, .51, 1);
+	-moz-transition: all 600ms cubic-bezier(0, .85, .51, 1);
+	-o-transition: all 600ms cubic-bezier(0, .85, .51, 1);
+	-ms-transition: all 600ms cubic-bezier(0, .85, .51, 1);
+	-webkit-touch-callout: none;
+	-khtml-touch-callout: none;
+	-moz-touch-callout: none;
+	-ms-touch-callout: none;
+	 touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	 user-select: none;
+}
+
+::-webkit-scrollbar {
+	width: 10vw;
+}
+
+::-webkit-scrollbar-thumb {
+	background: white;
+}
+
+::-webkit-scrollbar-track {
+	background: black;
+}
+
+::-ms-scrollbar {
+	width: 10vw;
+}
+
+::-ms-scrollbar-thumb {
+	background: white;
+}
+
+::-ms-scrollbar-track {
+	background: black;
+}
+
+::-o-scrollbar {
+	width: 10vw;
+}
+
+::-o-scrollbar-thumb {
+	background: white;
+}
+
+::-o-scrollbar-track {
+	background: black;
+}
+
+::-moz-scrollbar {
+	width: 10vw;
+}
+
+::-moz-scrollbar-thumb {
+	background: white;
+}
+
+::-moz-scrollbar-track {
+	background: black;
+}
+
+body {
+	display: none;
+	background-color: black;
+	background-size: cover;
+	background-position: center;
+	-webkit-transition: all 0ms cubic-bezier(0, .85, .29, .88);
+	-moz-transition: all 0ms cubic-bezier(0, .85, .29, .88);
+	-o-transition: all 0ms cubic-bezier(0, .85, .29, .88);
+	-ms-transition: all 0ms cubic-bezier(0, .85, .29, .88);
+	user-select: none;
+}
+
+/* ---------------------------
+
+
+UI
+
+
+--------------------------- */
+
+nav ul {
+	position: fixed;
+	left: 0px;
+	padding: 1vw;
+	font-family: 'Conv_DrukTextWide-BoldItalic_0';
+	z-index: 15;
+	background: black;
+}
+
+nav .menu li {
+	text-align: left;
+	list-style: none;
+	font-size: 1.3em;
+	line-height: 1.2em;
+}
+
+nav .menu li a {
+	opacity: 0.3;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+nav .menu li a:hover {
+	opacity: 1;
+}
+
+/* ---------------------------
+
+
+BOX WORKING
+
+
+--------------------------- */
+
+.contener {
+	background: black;
+	z-index: 0;
+}
+
+.project {
+	height: 100vh;
+	flex-grow: 1;
+	overflow: hidden;
+}
+
+.project section {
+	padding: 2vw;
+	padding-bottom: 0vw;
+}
+
+.project section img {
+	max-width: 100%;
+}
+
+.project section img + section {
+	padding: 0vw;
+	display: flex;
+	position: relative;
+	bottom: 52vw;
+	min-height: 100vh;
+}
+
+.project section img + section article {
+	width: 40%;
+	background: black;
+	color: white;
+	padding: 20px;
+	padding-left: 25px;
+	align-self: flex-end;
+	margin-left: 2vw;
+}
+
+.project section img + section article strong {
+	color: yellow;
+}
+
+.project section img + section article h2 {
+	margin-bottom: 5px;
+	font-family: 'Conv_DrukTextWide-Super_0';
+	font-size: 1em;
+	hyphens: auto;
+}
+
+.project section img + section article p {
+	font-family: 'Conv_DrukTextWide-BoldItalic_0';
+	font-size: 1em;
+	hyphens: auto;
+}
+
+/* ---------------------------
+
+
+BOUTON NAVIGATION
+
+
+--------------------------- */
+
+.contener div {
+	position: fixed;
+	bottom: 0px;
+	right: 2vw;
+	z-index: 15;
+	font-size: 1em;
+}
+
+.contener div p {
+	font-family: 'Conv_DrukTextWide-Super_0';
+	padding: 18px;
+	color: white;
+	background: black;
+	padding-left: 25px;
+}
+
+.contener div + div {
+	position: fixed;
+	bottom: 0px;
+	right: 7vw;
+}
+
+.contener div p a {
+	color: white;
+	text-decoration: none;
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+.contener div p a:hover {
+	opacity: 1;
+}
