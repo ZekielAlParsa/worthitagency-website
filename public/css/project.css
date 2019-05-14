@@ -222,6 +222,8 @@ BOUTON NAVIGATION
 	right: 2vw;
 	z-index: 15;
 	font-size: 1em;
+	float: right;
+	text-align: center;
 }
 
 .contener div p {
@@ -230,12 +232,6 @@ BOUTON NAVIGATION
 	color: white;
 	background: black;
 	padding-left: 25px;
-}
-
-.contener div + div {
-	position: fixed;
-	bottom: 0px;
-	right: 7vw;
 }
 
 .contener div p a {

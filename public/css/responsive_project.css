@@ -48,9 +48,6 @@ RESPONSIVE
  		padding: 5px;
  	}
 
- 	.contener div + div {
- 		right: 14vw;
- 	}
  }
 
  @media only screen and (min-width: 240px) and (min-height:400px) {
@@ -91,9 +88,6 @@ RESPONSIVE
  		padding: 10px;
  	}
 
- 	.contener div + div {
- 		right: 16vw;
- 	}
  }
 
  @media only screen and (min-width: 360px) and (min-height:640px) {
@@ -122,9 +116,6 @@ RESPONSIVE
  		display: none;
  	}
 
- 	.contener div + div {
- 		right: 13vw;
- 	}
  }
 
  @media only screen and (min-width: 480px) {
@@ -161,9 +152,6 @@ RESPONSIVE
  		display: none;
  	}
 
- 	.contener div + div {
- 		right: 13vw;
- 	}
 
  	.contener div {
  		font-size: 0.7em;
@@ -175,9 +163,6 @@ RESPONSIVE
  		padding-left: 20px;
  	}
 
- 	.contener div + div {
- 		right: 13vw;
- 	}
  }
 
  @media only screen and (min-width: 720px) {
@@ -209,9 +194,6 @@ RESPONSIVE
  		display: block;
  	}
 
- 	.contener div + div {
- 		right: 10vw;
- 	}
  }
 
  @media only screen and (min-width: 1024px) {
@@ -239,9 +221,7 @@ RESPONSIVE
  		display: block;
  	}
 
- 	.contener div + div {
- 		right: 8vw;
- 	}
+ 
 
  }
 
@@ -320,10 +300,6 @@ RESPONSIVE
  		display: block;
  	}
 
- 	.contener div + div {
- 		right: 8vw;
- 	}
-
  	.contener div {
  		font-size: 1em;
  	}
@@ -334,9 +310,7 @@ RESPONSIVE
 
  	}
 
- 	.contener div + div {
- 		right: 7vw;
- 	}
+
  }
 
  @media only screen and (min-width: 1920px) {
