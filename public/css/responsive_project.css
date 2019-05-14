@@ -18,32 +18,30 @@ RESPONSIVE
 
  	.project {
  		height: 40vh;
-		max-height: 140px;
+ 		max-height: 40vh;
  	}
 
- 	.project section img + section {
- 		padding: 0vw;
- 		bottom: 44vh;
- 		min-height: 40vh;
+ 	.project section section {
+ 		max-width: 50%;
+ 		bottom: 6vw;
  	}
 
- 	.project section img + section article {
- 		width: 40%;
- 		padding: 10px;
- 		padding-left: 15px;
+ 	.project section section h2 {
+ 		margin-bottom: 5px;
+ 		font-size: 0.40em;
  	}
 
- 	.project section img + section article h2 {
- 		font-size: 0.4em;
- 		margin-bottom: 0px;
+ 	.project section section p {
+ 		font-size: 0.35em;
+ 		word-break: break-all;
  	}
 
- 	.project section img + section article p {
+ 	.project section section p strong {
  		display: none;
  	}
 
  	.contener div {
- 		font-size: 0.55em;
+ 		font-size: 0.35em;
  	}
 
  	.contener div p {
@@ -51,34 +49,38 @@ RESPONSIVE
  	}
 
  	.contener div + div {
- 		right: 16vw;
+ 		right: 14vw;
  	}
  }
 
  @media only screen and (min-width: 240px) and (min-height:400px) {
  	.project {
  		height: 32vh;
+ 		max-height: 32vh;
  	}
 
- 	.project section img + section {
- 		bottom: 72vw;
- 		min-height: 40vh;
- 	}
-
- 	.contener div {
- 		display: none;
- 	}
  }
 
  @media only screen and (min-width: 320px) and (min-height:480px) {
  	.project {
  		height: 37vh;
-		max-height: 180px;
+ 		max-height: 37vh;
  	}
 
- 	.project section img + section {
- 		bottom: 63vw;
- 		min-height: 40vh;
+ 	.project section section {
+ 		max-width: 60%;
+ 		bottom: 4vw;
+ 	}
+
+ 	.project section section h2 {
+ 		margin-bottom: 5px;
+ 		font-size: 0.40em;
+ 	}
+
+ 	.project section section p {
+ 		font-size: 0.35em;
+ 		word-break: break-all;
+ 		hyphens: auto;
  	}
 
  	.contener div {
@@ -88,31 +90,40 @@ RESPONSIVE
  	.contener div p {
  		padding: 10px;
  	}
+
+ 	.contener div + div {
+ 		right: 16vw;
+ 	}
  }
 
  @media only screen and (min-width: 360px) and (min-height:640px) {
- 	.project section img + section article p {
- 	display: none;
- 	}
-
- 	.project section img + section {
- 		bottom: 68vw;
- 		min-height: 40vh;
- 	}
-
- 	.project section img + section article {
- 		width: 88%;
- 		padding: 10px;
- 		padding-left: 15px;
- 	}
 
  	.project {
- 		height: 33vh;
-		max-height: 400px;
+ 		height: 31vh;
+ 		max-height: 31vh;
  	}
 
- 	.contener div {
+ 	.project section section {
+ 		max-width: 65%;
+ 		bottom: 4vw;
+ 	}
+
+ 	.project section section h2 {
+ 		margin-bottom: 5px;
+ 		font-size: 0.40em;
+ 	}
+
+ 	.project section section p {
+ 		font-size: 0.40em;
+ 		word-break: normal;
+ 	}
+
+ 	.project section section p strong {
  		display: none;
+ 	}
+
+ 	.contener div + div {
+ 		right: 13vw;
  	}
  }
 
@@ -128,29 +139,30 @@ RESPONSIVE
 
  	.project {
  		height: 42vh;
-		max-height: 400px;
+ 		height: 42vh;
  	}
 
- 	.project section img + section {
- 		padding: 0vw;
- 		bottom: 55vw;
- 		min-height: 40vh;
+ 	.project section section {
+ 		max-width: 65%;
+ 		bottom: 3vw;
  	}
 
- 	.project section img + section article {
- 		width: 80%;
- 		padding: 10px;
- 		padding-left: 15px;
+ 	.project section section h2 {
+ 		margin-bottom: 5px;
+ 		font-size: 0.70em;
  	}
 
- 	.project section img + section article h2 {
- 		font-size: 0.5em;
- 		margin-bottom: 0px;
+ 	.project section section p {
+ 		font-size: 0.70em;
+ 		word-break: normal;
  	}
 
- 	.project section img + section article p {
- 		font-size: 0.5em;
-		display: block;
+ 	.project section section p strong {
+ 		display: none;
+ 	}
+
+ 	.contener div + div {
+ 		right: 13vw;
  	}
 
  	.contener div {
@@ -171,29 +183,30 @@ RESPONSIVE
  @media only screen and (min-width: 720px) {
  	nav ul {
  		padding: 2vw;
-
  	}
 
  	.project {
  		height: 40vh;
-		max-height: 8000px;
+ 		max-height: 40vh;
  	}
 
- 	.project section img + section {
- 		bottom: 59vw;
- 		min-height: 40vh;
+ 	.project section section {
+ 		max-width: 65%;
+ 		bottom: 2vw;
  	}
 
- 	.project section img + section article h2 {
- 		font-size: 0.7em;
+ 	.project section section h2 {
+ 		margin-bottom: 5px;
+ 		font-size: 0.80em;
  	}
 
- 	.project section img + section article p {
- 		font-size: 0.7em;
+ 	.project section section p {
+ 		font-size: 0.80em;
+ 		word-break: normal;
  	}
 
- 	.contener div {
- 		font-size: 0.8em;
+ 	.project section section p strong {
+ 		display: block;
  	}
 
  	.contener div + div {
@@ -204,25 +217,26 @@ RESPONSIVE
  @media only screen and (min-width: 1024px) {
  	.project {
  		height: 80vh;
+ 		max-height: 80vh;
  	}
 
- 	.project section img + section article h2 {
- 		font-size: 0.9em;
+ 	.project section section {
+ 		max-width: 65%;
+ 		bottom: 2vw;
  	}
 
- 	.project section img + section article {
- 		width: 60%;
- 		padding: 20px;
- 		padding-left: 20px;
+ 	.project section section h2 {
+ 		margin-bottom: 5px;
+ 		font-size: 0.80em;
  	}
 
- 	.project section img + section {
- 		bottom: 58vw;
- 		min-height: 80vh;
+ 	.project section section p {
+ 		font-size: 0.80em;
+ 		word-break: normal;
  	}
 
- 	.project section img + section article p {
- 		font-size: 0.9em;
+ 	.project section section p strong {
+ 		display: block;
  	}
 
  	.contener div + div {
@@ -232,37 +246,45 @@ RESPONSIVE
  }
 
  @media only screen and (min-width: 1280px) {
- 	.project {
- 		height: 100vh;
- 	}
-
  	nav .menu li {
- 		font-size: 1em;
+ 		font-size: 1.3em;
  		line-height: 1.2em;
  	}
 
- 	.project section img + section article h2 {
- 		font-size: 1em;
- 	}
-
- 	.project section img + section article {
- 		width: 50%;
- 		padding: 20px;
- 		padding-left: 20px;
- 	}
-
- 	.project section img + section {
- 		bottom: 47vw;
- 		min-height: 80vh;
- 	}
-
- 	.project section img + section article p {
- 		font-size: 1em;
+ 	.project {
+ 		height: 100vh;
+ 		max-height: 100vh;
  	}
 
  	.contener div + div {
- 		right: 7vw;
+ 		right: 8vw;
  	}
+
+ 	.project section section {
+ 		max-width: 60%;
+ 		bottom: 2vw;
+ 	}
+
+ 	.project section section h2 {
+ 		margin-bottom: 5px;
+ 		font-size: 1em;
+ 		hyphens: auto;
+ 	}
+
+ 	.project section section p {
+ 		font-size: 1em;
+ 		hyphens: auto;
+ 	}
+
+
+ 	.contener div p {
+ 		padding: 18px;
+ 	}
+
+ 	.contener div {
+ 		font-size: 1em;
+ 	}
+
  }
 
  @media only screen and (min-width: 1600px) {
@@ -279,26 +301,27 @@ RESPONSIVE
  		height: 100vh;
  	}
 
- 	.project section img + section {
- 		padding: 0vw;
- 		bottom: 58vw;
- 		min-height: 100vh;
+ 	.project section section {
+ 		max-width: 45%;
+ 		bottom: 8vw;
  	}
 
- 	.project section img + section article {
- 		width: 40%;
- 		padding: 20px;
- 		padding-left: 25px;
- 	}
-
- 	.project section img + section article h2 {
- 		font-size: 1em;
+ 	.project section section h2 {
  		margin-bottom: 5px;
+ 		font-size: 0.80em;
  	}
 
- 	.project section img + section article p {
- 		font-size: 1em;
- 		hyphens: auto;
+ 	.project section section p {
+ 		font-size: 0.80em;
+ 		word-break: normal;
+ 	}
+
+ 	.project section section p strong {
+ 		display: block;
+ 	}
+
+ 	.contener div + div {
+ 		right: 8vw;
  	}
 
  	.contener div {
@@ -306,8 +329,8 @@ RESPONSIVE
  	}
 
  	.contener div p {
- 	padding: 18px;
-        padding-left: 25px;
+ 		padding: 18px;
+ 		padding-left: 25px;
 
  	}
 
@@ -317,9 +340,40 @@ RESPONSIVE
  }
 
  @media only screen and (min-width: 1920px) {
- 	.project section img + section {
- 		padding: 0vw;
- 		bottom: 52vw;
- 		min-height: 100vh;
+ 	.project {
+ 		height: 100vh;
+ 		overflow: hidden;
+ 	}
+
+ 	.project section {
+ 		padding: 2vw;
+ 		padding-bottom: 0vw;
+ 		position: relative;
+ 	}
+
+ 	.project section img {
+ 		max-width: 100%;
+ 	}
+
+ 	.project section section {
+ 		position: absolute;
+ 		color: white;
+ 		bottom: 3vw;
+ 		background: black;
+ 		margin-left: 2vw;
+ 		padding: 2vw;
+ 	}
+
+ 	.project section section h2 {
+ 		margin-bottom: 5px;
+ 		font-family: 'Conv_DrukTextWide-Super_0';
+ 		font-size: 1em;
+ 		hyphens: auto;
+ 	}
+
+ 	.project section section p {
+ 		font-family: 'Conv_DrukTextWide-BoldItalic_0';
+ 		font-size: 1em;
+ 		hyphens: auto;
  	}
  }

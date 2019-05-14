@@ -42,6 +42,7 @@ html {
 }
 
 * {
+	box-sizing: border-box;
 	padding: 0px;
 	margin: 0px;
 	font-size: 1em;
@@ -53,12 +54,12 @@ html {
 	-khtml-touch-callout: none;
 	-moz-touch-callout: none;
 	-ms-touch-callout: none;
-	 touch-callout: none;
+	touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
-	 user-select: none;
+	user-select: none;
 }
 
 ::-webkit-scrollbar {
@@ -167,53 +168,41 @@ BOX WORKING
 .contener {
 	background: black;
 	z-index: 0;
+	display: inline-block;
 }
 
 .project {
 	height: 100vh;
-	flex-grow: 1;
 	overflow: hidden;
 }
 
 .project section {
 	padding: 2vw;
 	padding-bottom: 0vw;
+	position: relative;
 }
 
 .project section img {
 	max-width: 100%;
 }
 
-.project section img + section {
-	padding: 0vw;
-	display: flex;
-	position: relative;
-	bottom: 52vw;
-	min-height: 100vh;
-}
-
-.project section img + section article {
-	width: 40%;
-	background: black;
+.project section section {
+	position: absolute;
 	color: white;
-	padding: 20px;
-	padding-left: 25px;
-	align-self: flex-end;
+	bottom: 3vw;
+	background: black;
 	margin-left: 2vw;
+	padding: 2vw;
 }
 
-.project section img + section article strong {
-	color: yellow;
-}
-
-.project section img + section article h2 {
+.project section section h2 {
 	margin-bottom: 5px;
 	font-family: 'Conv_DrukTextWide-Super_0';
 	font-size: 1em;
 	hyphens: auto;
 }
 
-.project section img + section article p {
+.project section section p {
 	font-family: 'Conv_DrukTextWide-BoldItalic_0';
 	font-size: 1em;
 	hyphens: auto;
