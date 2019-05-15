@@ -157,6 +157,12 @@ nav .menu li a:hover {
 	opacity: 1;
 }
 
+nav .menu li strong {
+
+	color: white;
+font-family: 'Conv_DrukTextWide-BoldItalic_0';
+}
+
 /* ---------------------------
 
 
@@ -243,4 +249,16 @@ BOUTON NAVIGATION
 
 .contener div p a:hover {
 	opacity: 1;
+}
+
+
+/* ---------------------------
+
+footer
+
+
+--------------------------- */
+
+footer {
+    color:white;
 }
