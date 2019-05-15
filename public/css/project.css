@@ -160,7 +160,7 @@ nav .menu li a:hover {
 nav .menu li strong {
 
 	color: white;
-font-family: 'Conv_DrukTextWide-BoldItalic_0';
+	font-family: 'Conv_DrukTextWide-BoldItalic_0';
 }
 
 /* ---------------------------
@@ -206,6 +206,7 @@ BOX WORKING
 	font-family: 'Conv_DrukTextWide-Super_0';
 	font-size: 1em;
 	hyphens: auto;
+	letter-spacing: 3px;
 }
 
 .project section section p {
@@ -232,22 +233,30 @@ BOUTON NAVIGATION
 	text-align: center;
 }
 
-.contener div p {
-	font-family: 'Conv_DrukTextWide-Super_0';
-	padding: 18px;
-	color: white;
-	background: black;
-	padding-left: 25px;
-}
-
-.contener div p a {
+.contener div a {
+	font-family: 'Conv_DrukTextWide-BoldItalic_0';
 	color: white;
 	text-decoration: none;
-	opacity: 0.3;
+}
+
+.contener div a p {
+	color: white;
+	background: black;
+	opacity: 1;
+	padding: 20px 30px;
 	cursor: pointer;
 }
 
-.contener div p a:hover {
+.contener div a p strong{
+	opacity: 0.5;	
+}
+
+.contener div a:hover p strong {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.contener div a p:hover strong{
 	opacity: 1;
 }
 
@@ -260,5 +269,5 @@ footer
 --------------------------- */
 
 footer {
-    color:white;
+	color: white;
 }
