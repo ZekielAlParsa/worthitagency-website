@@ -29,11 +29,13 @@ RESPONSIVE
  	.project section section h2 {
  		margin-bottom: 5px;
  		font-size: 0.40em;
+			letter-spacing: 2px;
  	}
 
  	.project section section p {
  		font-size: 0.35em;
  		word-break: break-all;
+		letter-spacing: 1px;
  	}
 
  	.project section section p strong {
@@ -41,11 +43,12 @@ RESPONSIVE
  	}
 
  	.contener div {
- 		font-size: 0.35em;
+ 		font-size: 0.65em;
  	}
 
- 	.contener div p {
- 		padding: 5px;
+ 	.contener div a p {
+ 		padding: 5px 10px;
+
  	}
 
  }
@@ -71,22 +74,24 @@ RESPONSIVE
 
  	.project section section h2 {
  		margin-bottom: 5px;
- 		font-size: 0.40em;
+ 		font-size: 0.50em;
  	}
 
  	.project section section p {
- 		font-size: 0.35em;
+ 		font-size: 0.45em;
  		word-break: break-all;
  		hyphens: auto;
  	}
-
- 	.contener div {
- 		display: block;
+ 
+	 .contener div {
+ 		font-size: 0.65em;
  	}
 
- 	.contener div p {
- 		padding: 10px;
+ 	.contener div a p {
+ 		padding: 10px 15px;
+
  	}
+
 
  }
 
@@ -153,14 +158,13 @@ RESPONSIVE
  	}
 
 
- 	.contener div {
- 		font-size: 0.7em;
- 		display: block;
+	 .contener div {
+ 		font-size: 0.65em;
  	}
 
- 	.contener div p {
- 		padding: 10px;
- 		padding-left: 20px;
+ 	.contener div a p {
+ 		padding: 15px 20px;
+
  	}
 
  }
@@ -210,18 +214,27 @@ RESPONSIVE
  	.project section section h2 {
  		margin-bottom: 5px;
  		font-size: 0.80em;
+			letter-spacing: 3px;
  	}
 
  	.project section section p {
  		font-size: 0.80em;
  		word-break: normal;
+			letter-spacing: 0px;
  	}
 
  	.project section section p strong {
  		display: block;
  	}
+	 .contener div {
+ 		font-size: 0.95em;
+ 	}
 
- 
+ 	.contener div a p {
+ 		padding: 15px 25px;
+
+ 	}
+
 
  }
 
@@ -257,12 +270,13 @@ RESPONSIVE
  	}
 
 
- 	.contener div p {
- 		padding: 18px;
+ 	 .contener div {
+ 		font-size: 1em;
  	}
 
- 	.contener div {
- 		font-size: 1em;
+ 	.contener div a p {
+ 		padding: 20px 30px;
+
  	}
 
  }
@@ -300,17 +314,6 @@ RESPONSIVE
  		display: block;
  	}
 
- 	.contener div {
- 		font-size: 1em;
- 	}
-
- 	.contener div p {
- 		padding: 18px;
- 		padding-left: 25px;
-
- 	}
-
-
  }
 
  @media only screen and (min-width: 1920px) {
@@ -332,7 +335,7 @@ RESPONSIVE
  	.project section section {
  		position: absolute;
  		color: white;
- 		bottom: 3vw;
+ 		bottom: 4vw;
  		background: black;
  		margin-left: 2vw;
  		padding: 2vw;
@@ -340,14 +343,10 @@ RESPONSIVE
 
  	.project section section h2 {
  		margin-bottom: 5px;
- 		font-family: 'Conv_DrukTextWide-Super_0';
  		font-size: 1em;
- 		hyphens: auto;
  	}
 
  	.project section section p {
- 		font-family: 'Conv_DrukTextWide-BoldItalic_0';
  		font-size: 1em;
- 		hyphens: auto;
  	}
  }
