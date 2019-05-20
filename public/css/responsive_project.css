@@ -29,12 +29,11 @@ RESPONSIVE
  	.project section section h2 {
  		margin-bottom: 5px;
  		font-size: 0.40em;
-			letter-spacing: 2px;
+        letter-spacing: 2px;
  	}
 
  	.project section section p {
  		font-size: 0.35em;
- 		word-break: break-all;
 		letter-spacing: 1px;
  	}
 
@@ -79,8 +78,6 @@ RESPONSIVE
 
  	.project section section p {
  		font-size: 0.45em;
- 		word-break: break-all;
- 		hyphens: auto;
  	}
  
 	 .contener div {
@@ -89,10 +86,7 @@ RESPONSIVE
 
  	.contener div a p {
  		padding: 10px 15px;
-
  	}
-
-
  }
 
  @media only screen and (min-width: 360px) and (min-height:640px) {
@@ -114,13 +108,11 @@ RESPONSIVE
 
  	.project section section p {
  		font-size: 0.40em;
- 		word-break: normal;
  	}
 
  	.project section section p strong {
  		display: none;
  	}
-
  }
 
  @media only screen and (min-width: 480px) {
@@ -150,13 +142,11 @@ RESPONSIVE
 
  	.project section section p {
  		font-size: 0.70em;
- 		word-break: normal;
  	}
 
  	.project section section p strong {
  		display: none;
  	}
-
 
 	 .contener div {
  		font-size: 0.65em;
@@ -166,7 +156,6 @@ RESPONSIVE
  		padding: 15px 20px;
 
  	}
-
  }
 
  @media only screen and (min-width: 720px) {
@@ -191,13 +180,11 @@ RESPONSIVE
 
  	.project section section p {
  		font-size: 0.80em;
- 		word-break: normal;
  	}
 
  	.project section section p strong {
  		display: block;
  	}
-
  }
 
  @media only screen and (min-width: 1024px) {
@@ -219,8 +206,7 @@ RESPONSIVE
 
  	.project section section p {
  		font-size: 0.80em;
- 		word-break: normal;
-			letter-spacing: 0px;
+		letter-spacing: 0px;
  	}
 
  	.project section section p strong {
@@ -234,7 +220,6 @@ RESPONSIVE
  		padding: 15px 25px;
 
  	}
-
 
  }
 
@@ -268,7 +253,6 @@ RESPONSIVE
  		font-size: 1em;
  		hyphens: auto;
  	}
-
 
  	 .contener div {
  		font-size: 1em;
@@ -307,12 +291,21 @@ RESPONSIVE
 
  	.project section section p {
  		font-size: 0.80em;
- 		word-break: normal;
  	}
 
  	.project section section p strong {
  		display: block;
  	}
+
+ }
+
+ @media only screen and (min-width: 1900px) {
+
+ 	.project section section {
+
+ 		bottom: 5vw;
+ 	}
+
 
  }
 
