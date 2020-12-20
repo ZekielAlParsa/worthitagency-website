@@ -1,25 +1,3 @@
-//$(document).ready(function () {
-//	
-//	var viewportHeight = $("body").innerHeight();
-//	var base = parseInt(viewportHeight, 10) / 100;
-//	
-//	var taille = parseInt(base, 10) * 25;
-//	var taille2 = parseInt(base, 10) * 45;
-//
-//	console.log(viewportHeight,base,taille, taille2)
-//
-//	$(window).scroll(function () {
-//		if ($(document).scrollTop() >= 0 && $(document).scrollTop() <= taille) {
-//			$(".one").attr('id', 'previous');
-//			$(".two").attr('id', 'next');
-//			
-//		}
-//
-//		
-//	});
-//
-//});
-
 $(document).ready(function () {
 
     var viewportHeight = $("body").innerHeight();
@@ -32,9 +10,8 @@ $(document).ready(function () {
     var taille5 = parseInt(base, 10) * 80;
     var taille6 = parseInt(base, 10) * 96;
 
-    console.log(viewportHeight, taille, taille2, taille3, taille4, taille5, taille6)
-
     $(window).scroll(function () {
+
         if ($(document).scrollTop() >= 0 && $(document).scrollTop() <= taille) {
             $(".one").attr('id', 'previous');
             $(".two").attr('id', 'next');
@@ -43,6 +20,7 @@ $(document).ready(function () {
             $(".five").removeAttr('id', 'next');
             $(".six").removeAttr('id', 'next');
         }
+
         if ($(document).scrollTop() > taille && $(document).scrollTop() <= taille2) {
             $(".one").attr('id', 'previous');
             $(".two").removeAttr('id', 'next');
@@ -51,6 +29,7 @@ $(document).ready(function () {
             $(".five").removeAttr('id', 'next');
             $(".six").removeAttr('id', 'next');
         }
+
         if ($(document).scrollTop() > taille2 && $(document).scrollTop() <= taille3) {
             $(".one").removeAttr('id', 'previous');
             $(".two").attr('id', 'previous');
@@ -59,6 +38,7 @@ $(document).ready(function () {
             $(".five").removeAttr('id', 'next');
             $(".six").removeAttr('id', 'next');
         }
+
         if ($(document).scrollTop() > taille3 && $(document).scrollTop() <= taille4) {
             $(".one").removeAttr('id', 'previous');
             $(".two").removeAttr('id', 'previous');
@@ -68,7 +48,7 @@ $(document).ready(function () {
             $(".six").removeAttr('id', 'next');
         }
         
-           if ($(document).scrollTop() > taille4 && $(document).scrollTop() <= taille5) {
+        if ($(document).scrollTop() > taille4 && $(document).scrollTop() <= taille5) {
             $(".one").removeAttr('id', 'previous');
             $(".two").removeAttr('id', 'previous');
             $(".three").removeAttr('id', 'previous');
@@ -77,7 +57,6 @@ $(document).ready(function () {
             $(".six").attr('id', 'next');
         }
         
-    
         if ($(document).scrollTop() > taille5 && $(document).scrollTop() <= $("body").innerHeight()) {
             $(".one").removeAttr('id', 'previous');
             $(".two").removeAttr('id', 'previous');
