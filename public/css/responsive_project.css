@@ -263,6 +263,15 @@ RESPONSIVE
 
  }
 
+ @media only screen and (min-width: 1500px) {
+
+	.project section section {
+		max-width: 60%;
+		bottom: 4vw;
+	}
+
+}
+
  @media only screen and (min-width: 1600px) {
  	nav ul {
  		padding: 1vw;
@@ -300,10 +309,8 @@ RESPONSIVE
  @media only screen and (min-width: 1900px) {
 
  	.project section section {
-
  		bottom: 5vw;
  	}
-
 
  }
 
