@@ -128,6 +128,32 @@ RESPONSIVE
  	}
  }
 
+ @media only screen and (min-width: 1500px) {
+	nav ul li h1 {
+		font-size: 1vw;
+		width: 30%;
+	}
+
+	footer li h3 {
+		font-size: 1.2vw;
+	}
+
+	nav ul + ul {
+		left: 12vw;
+		top: 16.5vw;
+		font-size: 2em;
+	}
+
+	nav li img {
+		width: 35vw;
+		padding-top: 17vw;
+	}
+
+	footer {
+		bottom:30px;
+	}
+}
+
  @media only screen and (min-width: 1600px) {
  	nav ul li h1 {
  		font-size: 1vw;
@@ -141,12 +167,14 @@ RESPONSIVE
  	}
 
  	nav li img {
- 		width: 35vw;
+		width: 35vw;
+		padding-top: 20vw;
  	}
 
  	footer li h3 {
  		font-size: 0.8vw;
- 	}
+	 }
+	 
  }
 
  @media only screen and (min-width: 1920px) {

@@ -263,7 +263,25 @@ RESPONSIVE
 
  }
 
- @media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1500px) and (min-height:690px) {
+
+	.project section section {
+		max-width: 60%;
+		bottom: 10vw;
+	}
+
+}
+
+@media only screen and (min-width: 1500px) and (min-height:750px) {
+
+	.project section section {
+		max-width: 60%;
+		bottom: 8vw;
+	}
+
+}
+
+@media only screen and (min-width: 1500px) and (min-height:800px) {
 
 	.project section section {
 		max-width: 60%;
